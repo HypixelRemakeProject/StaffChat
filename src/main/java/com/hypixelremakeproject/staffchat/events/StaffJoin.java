@@ -10,11 +10,11 @@ import org.bukkit.Bukkit;
 
 import com.hypixelremakeproject.staffchat.StaffChat;
 
-public class PlayerJoin implements Listener {
+public class StaffJoin implements Listener {
 	
 	private StaffChat plugin;
 	
-	public PlayerJoin(StaffChat plugin) {
+	public StaffJoin(StaffChat plugin) {
 		this.plugin = plugin;
 	}
 	
